@@ -19,7 +19,7 @@ class Regmitter(object):
                 log.addHandler(logger.StreamHandler())
                 log.setLevel(logging.DEBUG)
 
-        self.docker_self.docker_client = docker.DockerClient(version=version)
+        self.docker_client = docker.DockerClient(version=version)
 
     def pull(self, images):
         for idx, name in enumerate(images.iteritems()):
