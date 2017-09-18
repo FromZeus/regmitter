@@ -7,7 +7,7 @@ regmitter
 Description
 ~~~~~~~~~~~
 
-This utility is designed for transferring docker regisries data.
+This utility is designed for transferring docker registries data.
 
 Installation
 ~~~~~~~~~~~~
