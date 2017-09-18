@@ -27,6 +27,8 @@ How to use
 
 Run ``regmitter -t pull images.yml``
 
+Example of yml file entry: ``"sample-registry.com:5000/app": ["1.0.0-124"]``
+
 Also checkout list of `arguments`_
 
 arguments
